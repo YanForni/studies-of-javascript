@@ -1,5 +1,5 @@
 
-//funções sem parâmetros são funções anônimas
+//funções sem nome são funções anônimas
 //declarando uma função
 function createPhrases() {
     console.log('Estudar é muito bom');
