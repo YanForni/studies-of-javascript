@@ -14,17 +14,17 @@ class Poligon {
     this.height = height;
     this.width = width;
   }
-  
+
   getArea() {
-    return this.#calculateArea()
+    return this.#calculateArea();
   }
 
   #calculateArea() {
-    return this.height * this.width
+    return this.height * this.width;
   }
 }
 
 //para criar o Objeto
-let poligon = new Poligon(50,50)
+let poligon = new Poligon(50, 50);
 console.log(poligon);
 console.log(poligon.getArea());
