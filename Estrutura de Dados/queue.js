@@ -1,0 +1,26 @@
+//Passo 1: Modelando
+class Queue {
+  constructor() {
+    this.data = [];
+  }
+
+  enqueue(item) {
+    this.data.push(item);
+    console.log(`${item} chegou a fila!`);
+  }
+
+  dequeue() {
+    const item = this.data.shift();
+    console.log(`${item} saiu da fila!`);
+  }
+}
+
+//Passo 2: Utilizando
+const fila = new Queue();
+
+fila.enqueue("João");
+fila.enqueue("Maria");
+fila.enqueue("Isabela");
+fila.dequeue();
+fila.dequeue();
+fila.dequeue();
