@@ -1,4 +1,6 @@
-//interface também serve para criar novos tipos, o recomendado é usar type por ser mais flexivél e simples
+//interface também serve para criar novos tipos,
+// o recomendado é usar type por ser mais flexivél e simples
+//geralmente interface é utilizado para herança (herdar contratos)
 type TPerson = {
   name: string;
   id: number;
